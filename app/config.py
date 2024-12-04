@@ -7,6 +7,7 @@ class Config:
     
     # 基本配置
     SQLALCHEMY_DATABASE_URI = 'sqlite:///documents.db'
+    #postgresql://document_manage_database_user:1MbFj2uKLI0LZN7Afzp2LDpXtpAMhFyR@dpg-ct7jp8g8fa8c73bs6lj0-a.oregon-postgres.render.com/document_manage_database
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SECRET_KEY = os.urandom(24)
     
