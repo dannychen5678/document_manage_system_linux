@@ -55,7 +55,7 @@ def create_app():
     # 基本配置
     app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(
         'SQLALCHEMY_DATABASE_URI',
-        'postgresql://document_manage_database_user:1MbFj2uKLI0LZN7Afzp2LDpXtpAMhFyR@dpg-ct7jp8g8fa8c73bs6lj0-a.oregon-postgres.render.com/document_manage_database'
+        'postgresql://document_manage_system_linux_user:nHTtCdFqIjELRTOKCubASgqyfBcgfTJY@dpg-ct97ng1u0jms73cmsfug-a.oregon-postgres.render.com/document_manage_system_linux'
     )
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['SECRET_KEY'] = os.urandom(24)
